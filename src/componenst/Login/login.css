@@ -1,0 +1,101 @@
+.login {
+    position: relative;
+    height: 100%;
+    background: url("https://dkr0pu7ej5xex.cloudfront.net/wp-content/uploads/2017/04/24135159/Netflix-Background.jpg") center no-repeat;
+    background-size: cover;
+}
+
+.login_gradient {
+    width: 100%;
+    z-index: 1;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.4);
+    background-image: linear-gradient(
+        to top,
+        rgba(0, 0, 0, 0.8) 0,
+        rgba(0, 0, 0, 0) 60%,
+        rgba(0, 0, 0, 0.8) 100%
+    );
+}
+
+.login_logo{
+    position: fixed;
+    left: 0;
+    width: 100px;
+    object-fit: contain;
+    padding-left: 20px;
+}
+
+.login_button {
+    position: fixed;
+    right: 20px;
+    top: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: white;
+    background-color: #e50914;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    outline-width: 0;
+}
+
+.login_body {
+    position: absolute;
+    top: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 1;
+    color: #fff;
+    padding: 20px;
+    left: 0;
+    right: 0;
+}
+
+.login_body > h1 {
+    font-size: 3.125rem;
+    margin-bottom: 20px;
+}
+
+.login_body > h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    font-weight: 400;
+}
+
+.login_body > h3 {
+    font-size: 16px;
+    
+}
+
+.login_input {
+    align-items: center;
+}
+
+.login_input > form > input {
+    padding: 10px;
+    border: none;
+    outline-width: 0;
+    height: 30px;
+    width: 30%;
+    max-width: 600px;
+    line-height: normal;
+    text-transform: none;
+    letter-spacing: normal;
+    word-spacing: normal;
+    cursor: text;
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+}
+
+.login_signup {
+    padding: 16px 20px;
+    font-size: 1rem;
+    background-color: #e50914;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    flex-direction: row;
+    
+}
